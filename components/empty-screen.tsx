@@ -3,20 +3,44 @@ import { ArrowRight } from 'lucide-react'
 
 const exampleMessages = [
   {
-    heading: 'What is Apple Intelligence?',
-    message: 'What is Apple Intelligence?'
+    heading: "❓What's new with the iPad Pro?",
+    message: "What's new with the iPad Pro?"
   },
   {
-    heading: 'Why is Nvidia growing rapidly?',
+    heading: '📈Why is Nvidia growing rapidly?',
     message: 'Why is Nvidia growing rapidly?'
   },
   {
-    heading: 'How does the Vercel AI SDK work?',
-    message: 'How does the Vercel AI SDK work?'
+    heading: '🤖 How Large Language models work?',
+    message: 'How Large Language models work?'
   },
   {
-    heading: 'Tesla vs Rivian',
-    message: 'Tesla vs Rivian'
+    heading: '🌋 How are volcanoes formed?',
+    message: 'How are volcanoes formed?'
+  },
+  {
+    heading: '🍋 Health benefits of lemon water!',
+    message: 'Health benefits of lemon water'
+  },
+  {
+    heading: '🌍 How does the sun affect the Earth climate?',
+    message: 'How does the sun affect the Earth climate?'
+  },
+  {
+    heading: '🐍 Why do snakes shed their skin?',
+    message: 'Why do snakes shed their skin?'
+  },
+  {
+    heading: '🐬 How intelligent are dolphins?',
+    message: 'How intelligent are dolphins?'
+  },
+  {
+    heading: '✈️ What are some popular travel destinations?',
+    message: 'What are some popular travel destinations?'
+  },
+  {
+    heading: '🐧 How to take care of a penguin?',
+    message: 'How to take care of a penguin?'
   }
 ]
 export function EmptyScreen({
