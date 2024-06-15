@@ -68,7 +68,7 @@ export function ChatPanel({ messages, query }: ChatPanelProps) {
 
   useEffect(() => {
     const lastMessage = aiMessage.messages.slice(-1)[0]
-    if (lastMessage?.type === 'followup') {
+    if (lastMessage?.type === 'followup' || lastMessage?.type === 'inquiry') {
       setIsGenerating(false)
     }
   }, [aiMessage, setIsGenerating])
@@ -76,6 +76,8 @@ export function ChatPanel({ messages, query }: ChatPanelProps) {
   // Clear messages
   const handleClear = () => {
     setIsGenerating(false)
+    setMessages([])
+    setInput('')
     router.push('/')
   }
 
@@ -93,6 +95,7 @@ export function ChatPanel({ messages, query }: ChatPanelProps) {
           variant={'secondary'}
           className="rounded-full bg-secondary/80 group transition-all hover:scale-105 pointer-events-auto"
           onClick={() => handleClear()}
+          disabled={isGenerating}
         >
           <span className="text-sm mr-2 group-hover:block hidden animate-in fade-in duration-300">
             New
