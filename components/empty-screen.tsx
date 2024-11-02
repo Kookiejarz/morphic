@@ -7,12 +7,36 @@ const exampleMessages = [
     message: 'What is OpenAI o1?'
   },
   {
-    heading: 'Why is Nvidia growing rapidly?',
+    heading: '🥥Nutritions contained in a coconut',
+    message: 'Nutritions contained in a coconut'
+  },
+  {
+    heading: '🍎Why should we eat an apple a day?',
+    message: 'Why should we eat an apple a day?'
+  },
+  {
+    heading: '📈Why is Nvidia growing rapidly?',
     message: 'Why is Nvidia growing rapidly?'
   },
   {
-    heading: 'Tesla vs Rivian',
-    message: 'Tesla vs Rivian'
+    heading: '🐧How to take care of a penguin?',
+    message: 'How to take care of a penguin?'
+  },
+  {
+    heading: '🔧How is search AI different?',
+    message: 'How is search AI different?'
+  },
+  {
+    heading: '💾Size of a META GPU cluster',
+    message: 'Size of a META GPU cluster'
+  },
+  {
+    heading: '🐳How can whales communicate to each other?',
+    message: 'How can whales communicate to each other?'
+  },
+  {
+    heading: '🏝️Where is the must-visit place in 2024?',
+    message: 'Where is the must-visit place in 2024?'
   },
   {
     heading: 'Summary: https://arxiv.org/pdf/2407.16833',
