@@ -43,8 +43,8 @@ export const models: Model[] = [
     providerId: 'google'
   },
   {
-    id: 'llama3-groq-8b-8192-tool-use-preview',
-    name: 'LLama 3 Groq 8B Tool Use',
+    id: 'llama-3.3-70b-versatile',
+    name: 'LLama 3.3 Groq 70B',
     provider: 'Groq',
     providerId: 'groq'
   },
@@ -62,12 +62,12 @@ export const models: Model[] = [
   },
   // Deepseek function calling is currently unstable: https://github.com/vercel/ai/issues/4313#issuecomment-2587891644
   // If you want to use Deepseek, remove the comment and add it to the models array
-  // {
-  //   id: 'deepseek-chat',
-  //   name: 'DeepSeek v3',
-  //   provider: 'DeepSeek',
-  //   providerId: 'deepseek'
-  // },
+   {
+     id: 'deepseek-chat',
+     name: 'DeepSeek v3',
+     provider: 'DeepSeek',
+     providerId: 'deepseek'
+   },
   {
     id: process.env.NEXT_PUBLIC_OPENAI_COMPATIBLE_MODEL || 'undefined',
     name: process.env.NEXT_PUBLIC_OPENAI_COMPATIBLE_MODEL || 'Undefined',
