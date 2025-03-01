@@ -29,7 +29,7 @@
       "name": "Claude 3.7 Sonnet",
       "provider": "Anthropic",
       "providerId": "anthropic",
-      "enabled": true,
+      "enabled": false,
       "toolCallType": "native"
     },
     {
@@ -37,7 +37,7 @@
       "name": "Claude 3.5 Sonnet",
       "provider": "Anthropic",
       "providerId": "anthropic",
-      "enabled": true,
+      "enabled": false,
       "toolCallType": "native"
     },
     {
