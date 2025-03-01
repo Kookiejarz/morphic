@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import React from 'react'
-import { SiInstagram, SiX } from 'react-icons/si'
+import { SiInstagram, SiX, SiGithub } from 'react-icons/si'
 import { RiLinkUnlinkM } from "react-icons/ri"
 import { Button } from './ui/button'
 
@@ -24,6 +24,15 @@ const Footer: React.FC = () => {
         >
           <Link href="https://x.com/LiuKenneth3" target="_blank">
             <SiX size={18} />
+          </Link>
+        </Button>
+        <Button
+          variant={'ghost'}
+          size={'icon'}
+          className="text-muted-foreground/50"
+        >
+          <Link href="https://github.com/Kookiejarz/morphic" target="_blank">
+            <SiGithub size={18} /> 
           </Link>
         </Button>
         <Button
