@@ -22,17 +22,8 @@ const Footer: React.FC = () => {
           size={'icon'}
           className="text-muted-foreground/50"
         >
-          <Link href="https://x.com/LiuKenneth3" target="_blank">
-            <SiX size={18} />
-          </Link>
-        </Button>
-        <Button
-          variant={'ghost'}
-          size={'icon'}
-          className="text-muted-foreground/50"
-        >
           <Link href="https://github.com/Kookiejarz/morphic" target="_blank">
-            <SiGithub size={18} /> 
+            <SiGithub size={18} />
           </Link>
         </Button>
         <Button
