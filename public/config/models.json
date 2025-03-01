@@ -3,24 +3,24 @@
     {
       "id": "o3-mini",
       "name": "o3 mini",
-      "provider": "OpenAI",
-      "providerId": "openai",
+      "provider": "OpenAI Compatible",
+      "providerId": "openai-compatible",
       "enabled": true,
       "toolCallType": "native"
     },
     {
       "id": "gpt-4o",
       "name": "GPT-4o",
-      "provider": "OpenAI",
-      "providerId": "openai",
+      "provider": "OpenAI Compatible",
+      "providerId": "openai-compatible",
       "enabled": true,
       "toolCallType": "native"
     },
     {
       "id": "gpt-4o-mini",
       "name": "GPT-4o mini",
-      "provider": "OpenAI",
-      "providerId": "openai",
+      "provider": "OpenAI Compatible",
+      "providerId": "openai-compatible",
       "enabled": true,
       "toolCallType": "native"
     },
