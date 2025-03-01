@@ -67,7 +67,7 @@
       "toolCallModel": "llama-3.1-8b-instant"
     },
     {
-      "id": "llama-3.3-70b-versatile", 
+      "id": "llama-3.3-70b-versatile",
       "name": "Groq Llama 3.3 70B",
       "provider": "Groq",
       "providerId": "groq",
