@@ -72,7 +72,8 @@
       "provider": "Groq",
       "providerId": "groq",
       "enabled": true,
-      "toolCallType": "native"
+      "toolCallType": "manual",
+      "toolcallType": "llama-3.1-8b-instant"
     }
   ]
 }
